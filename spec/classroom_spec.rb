@@ -89,29 +89,3 @@ describe Classroom do
     end
   end
 end
-
-#   pry(main)> require './lib/classroom'
-# #=> true
-#
-# pry(main)> classroom = Classroom.new('History', 4)
-# => #<Classroom:0x00007fed7c11dbd8 @capacity=4, @subject="History", @students=[]>k
-#
-# pry(main)> classroom.add_student('Mike')
-# pry(main)> classroom.add_student('Megan')
-# pry(main)> classroom.add_student('Bob')
-# pry(main)> classroom.add_student('James')
-# pry(main)> classroom.add_student('Cat')
-# pry(main)> classroom.add_student('Alice')
-#
-# pry(main)> classroom.kick_out
-#
-# pry(main)> classroom.over_capacity?
-# => true
-#
-# pry(main)> classroom.kick_out
-#
-# pry(main)> classroom.over_capacity?
-# => false
-#
-# pry(main)> classroom.students
-# ["Bob", "James", "Cat", "Alice"]
